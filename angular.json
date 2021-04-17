@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "Temperature-convertor"
+  "defaultProject": "Temperature-convertor",
+  "cli": {
+    "analytics": "a08b9ebb-503b-46f7-8cdb-105180fead0d"
+  }
 }

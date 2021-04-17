@@ -1,0 +1,18 @@
+    <div class="container">
+        <div class="input-field">
+            <label for="celcius">Celcius</label>
+            <input type="number" 
+                    class="form-control" 
+                    id="celcius"
+                    [(ngModel)]="celcius"
+                    (keyup)="convertToFarenheit(celcius)">
+        </div>
+        <div class="input-field">
+            <label for="farenheit">Farenheit</label>
+            <input type="number" 
+                    class="form-control" 
+                    id="farenheit"
+                    [(ngModel)]="farenheit"
+                    (keyup)="convertToCelcius(farenheit)">
+        </div>
+    </div>

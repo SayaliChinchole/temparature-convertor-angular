@@ -1,0 +1,34 @@
+.container{
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #7f53ac;
+    background-image: linear-gradient(320deg, #3a2350 0%, #647dee 74%);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    color: white;
+    margin:1rem;
+}
+.input-field {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+}
+label {
+    align-self: flex-start;
+}
+input{
+    width: 70%;
+    background: transparent;
+    border-style: none;
+    outline: none;
+    border-bottom: 0.5px solid rgb(135, 148, 189);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: larger;
+    color: white;
+    font-weight: bolder;
+    text-align: right;
+    align-self: flex-end;
+}
